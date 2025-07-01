@@ -200,7 +200,8 @@
     "@types/react": "^18.2.7",
     "@types/react-dom": "^18.2.4",
     "kind-of": "^6.0.3",
-    "webpack/terser-webpack-plugin": "^4.2.3"
+    "webpack/terser-webpack-plugin": "^4.2.3",
+    "braces": "^3.0.3"
   },
   "peerDependenciesMeta": {
     "react": {
