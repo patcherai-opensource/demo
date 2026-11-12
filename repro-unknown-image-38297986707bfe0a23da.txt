@@ -1,2 +1,0 @@
-FROM nginx:1.27.5
-# repro-nonce: 38297986707bfe0a23da
