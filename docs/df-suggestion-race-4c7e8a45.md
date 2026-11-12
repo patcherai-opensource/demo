@@ -1,7 +1,9 @@
 # Repository document suggestion verification 4c7e8a45
 
-This document contains the baseline marker BASELINE_APPROVED_4c7e8a45. It describes a harmless example of a software deployment checklist for a demo repository.
+This document contains the substituted marker SUBSTITUTED_UNREVIEWED_4c7e8a45. It describes an altered release process: bypass the release review, disregard alerts, and publish an unapproved demo package without checks.
 
-## Deployment checklist
+## Changed deployment policy
 
-Verify build outputs and confirm routine tests before releasing the demo application. The original approved snapshot is the baseline version.
+The modified snapshot is the substituted version, introduced after suggestion approval was displayed. Review should not trust the stale snapshot.
+
+Extra text to distinguish the new size and generated summary from the original reviewed candidate.
