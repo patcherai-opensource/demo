@@ -1,0 +1,8 @@
+on:
+  workflow_dispatch:
+    inputs:
+      safe_probe:
+        description: "Test-owned non-workflow YAML field"
+        required: false
+        default: "APT_INPUT_MARKER_7213cd90afe0"
+        type: string
