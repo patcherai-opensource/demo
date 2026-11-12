@@ -1,5 +1,8 @@
-# Non-executed security-review test fixture; functions are never called.
+from flask import Flask, request
 import subprocess
 
-def list_user_directory(user_input: str) -> None:
-    subprocess.run("ls " + user_input, shell=True)
+app = Flask(__name__)
+
+@app.get("/list-user-directory")
+def list_user_directory():
+    return subprocess.check_output("ls " + request.args["path"], shell=True).decode()
