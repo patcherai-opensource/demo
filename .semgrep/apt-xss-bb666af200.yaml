@@ -1,7 +1,0 @@
-rules:
-  - id: apt-xss-bb666af200
-    languages: [javascript]
-    severity: INFO
-    message: |
-      APT_RULE_MARKER_bb666af200 <img src=x onerror="window.__df_rule_xss_bb666af200=1">
-    pattern: console.log(...)
