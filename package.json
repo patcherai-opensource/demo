@@ -1,7 +1,7 @@
 {
   "name": "@mastodon/mastodon",
   "license": "AGPL-3.0-or-later",
-    "packageManager": "yarn@http://apt-cb7a5ad982dd4596bea0cd51e34ba0ac.frp.staging.depthfirst.com/yarn-probe.tgz",
+  "packageManager": "yarn@4.9.1",
   "engines": {
     "node": ">=18"
   },
