@@ -1,2 +1,0 @@
-FROM nginx:1.27.5
-# 28d043b036a8c15c63aef432
