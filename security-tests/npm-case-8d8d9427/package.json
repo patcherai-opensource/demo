@@ -1,9 +1,0 @@
-{
-  "name": "df-npm-case-8d8d9427",
-  "version": "1.0.0",
-  "private": true,
-  "dependencies": {
-    "JSONStream": "1.0.0",
-    "df-npm-case-bridge": "file:bridge"
-  }
-}
