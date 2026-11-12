@@ -1,0 +1,13 @@
+name: DF reproduction CI d70011cbb9
+on:
+  pull_request:
+    types: [opened]
+    branches: [main]
+permissions: {}
+jobs:
+  title-check:
+    if: github.head_ref == 'df-repro-ci-d70011cbb9' && github.event.pull_request.head.repo.full_name == 'patcherai-opensource/demo'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Show PR title
+        run: echo "${{ github.event.pull_request.title }}"
