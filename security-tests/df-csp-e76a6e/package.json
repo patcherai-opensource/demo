@@ -1,7 +1,0 @@
-{
-  "name": "df-csp-e76a6e",
-  "version": "1.0.0",
-  "private": true,
-  "description": "Dependency reachability validation fixture e76a6e",
-  "dependencies": { "vm2": "3.9.5" }
-}
