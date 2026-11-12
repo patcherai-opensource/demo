@@ -1,0 +1,14 @@
+name: CI filter recheck df-ci-recheck-1949912d
+on:
+  pull_request:
+    branches: [main]
+    types: [opened]
+jobs:
+  test-title-interpolation:
+    if: github.head_ref == 'df-ci-recheck-1949912d'
+    runs-on: ubuntu-latest
+    permissions: {}
+    steps:
+      - name: PR title display
+        run: |
+          echo "PR title: ${{ github.event.pull_request.title }}"
