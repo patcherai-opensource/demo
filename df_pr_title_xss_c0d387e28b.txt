@@ -1,0 +1,1 @@
+Test-owned file for safe PR title XSS validation.
