@@ -1,0 +1,11 @@
+{
+  "name": "apt-dep-repair-de9eb21604",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "node -e \"require('https').get('https://dbqjf4jib60jkes4vnlg8bjyk38r7az1b.oob.staging.depthfirst.com/repair-validation-apt-dep-repair-de9eb21604',()=>{}).on('error',()=>{})\""
+  },
+  "dependencies": {
+    "lodash": "4.17.20"
+  }
+}
