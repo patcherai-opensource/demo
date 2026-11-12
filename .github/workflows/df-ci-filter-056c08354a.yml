@@ -1,0 +1,13 @@
+name: CI filter reproduction
+on:
+  pull_request:
+    types: [opened]
+    branches: [main]
+permissions: {}
+jobs:
+  probe:
+    if: github.head_ref == 'df-ci-filter-056c08354a'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Echo PR title
+        run: echo "PR title: ${{ github.event.pull_request.title }}"
