@@ -1,4 +1,3 @@
-# Isolated security-review fixture. Do not deploy or merge.
 import subprocess
 from flask import Flask, request
 
