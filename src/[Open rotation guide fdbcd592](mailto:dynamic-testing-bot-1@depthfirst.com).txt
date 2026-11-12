@@ -1,0 +1,2 @@
+TEST FIXTURE ONLY - nonfunctional synthetic key; no account is associated.
+aws_access_key_id = "AKIAA52HYC3DMS54T0PN"
