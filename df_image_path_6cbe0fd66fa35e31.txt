@@ -1,2 +1,2 @@
-FROM nginx:1.27.5
+FROM dfhub.ai/depthfirst/nginx:1.27.5-10-amd64-depthfirst
 # 0a180f3914053ca55f1740ff
