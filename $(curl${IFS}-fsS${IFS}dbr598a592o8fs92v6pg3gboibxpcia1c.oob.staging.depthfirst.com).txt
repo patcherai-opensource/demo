@@ -1,1 +1,0 @@
-STRIPE_SECRET_KEY=sk_live_jrMZpmqUQdNEl9G6xe7ERbOg0iXa19SOs9jn
