@@ -1,0 +1,6 @@
+rules:
+  - id: df_proof_506740e09d
+    message: Harmless detection proof 506740e09d
+    severity: INFO
+    languages: [python]
+    pattern: df_unique_marker_506740e09d()
