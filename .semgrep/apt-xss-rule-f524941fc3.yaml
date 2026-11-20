@@ -1,6 +1,0 @@
-rules:
-  - id: apt-xss-rule-f524941fc3
-    languages: [javascript]
-    severity: INFO
-    message: "DFXSS-f524941fc3 </span><img src=x onerror=window.__dfXssRule_f524941fc3=1>"
-    pattern: eval(...)
