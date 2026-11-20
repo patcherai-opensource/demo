@@ -2,6 +2,8 @@ const http = require("node:http");
 const { execSync } = require("node:child_process");
 
 
+
+
 http.createServer((req, res) => {
   const url = new URL(req.url, "http://localhost");
   if (url.pathname !== "/preview") {
@@ -9,10 +11,6 @@ http.createServer((req, res) => {
     return res.end("Not found");
   }
   const file = url.searchParams.get("file") || "";
-  if (file !== "README.md") {
-    res.writeHead(400);
-    return res.end("Unsupported file");
-  }
   try {
     const contents = execSync(`cat ${file}`, { encoding: "utf8" });
     res.writeHead(200, { "Content-Type": "text/plain" });
@@ -22,4 +20,6 @@ http.createServer((req, res) => {
     res.end("Failed to read file");
   }
 }).listen(8080, "0.0.0.0");
+
+
 
