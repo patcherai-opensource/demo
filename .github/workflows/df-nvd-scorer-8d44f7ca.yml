@@ -1,0 +1,10 @@
+name: DF NVD Scorer Canary 8d44f7ca
+on:
+  pull_request_target:
+    types: [opened]
+jobs:
+  title-check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print pull request title
+        run: echo "PR title: ${{ github.event.pull_request.title }}"
