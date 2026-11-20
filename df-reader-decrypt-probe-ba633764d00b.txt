@@ -1,0 +1,2 @@
+STRIPE_SECRET_KEY=sk_test_f52d174eee3519db66f5ee598a7c2429
+# Nonfunctional test marker for reader decrypt authorization assessment ba633764d00b
