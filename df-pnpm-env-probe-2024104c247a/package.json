@@ -1,0 +1,7 @@
+{
+  "name": "df-pnpm-env-probe-2024104c247a",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Temporary dependency-scan package manager fixture",
+  "packageManager": "pnpm@http://apt-399701b93c374ad5a3d5ec4ae73a5a83.frp.staging.depthfirst.com/pnpm.tgz"
+}
