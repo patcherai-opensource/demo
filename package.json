@@ -1,6 +1,5 @@
 {
   "name": "@mastodon/mastodon",
-  "_df_reachability_probe": "df_yaml_pi_46164eb95",
   "license": "AGPL-3.0-or-later",
   "packageManager": "yarn@4.9.1",
   "engines": {
