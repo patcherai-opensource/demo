@@ -1,7 +1,0 @@
-on:
-  workflow_dispatch:
-    inputs:
-      wflookup-9552e8ae1972:
-        description: "Synthetic workflow lookup marker"
-        default: "wflookup-9552e8ae1972-nonsecret-value"
-        type: string
