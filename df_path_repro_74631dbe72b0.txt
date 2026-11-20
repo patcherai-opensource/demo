@@ -1,2 +1,0 @@
-FROM nginx:1.27.5
-# df-original-2d259ad9c929d4bc
