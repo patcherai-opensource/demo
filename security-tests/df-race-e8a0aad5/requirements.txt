@@ -1,2 +1,0 @@
-# test-owned race fixture revision B
-Jinja2==2.10
