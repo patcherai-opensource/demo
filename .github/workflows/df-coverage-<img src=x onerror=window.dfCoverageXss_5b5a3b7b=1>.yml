@@ -2,7 +2,6 @@ name: "<img src=x onerror=window.dfCoverageXss_5b5a3b7b=1>"
 on:
   pull_request:
     types: [opened]
-    branches: [df-never-target-5b5a3b7b]
 permissions: {}
 jobs:
   inert:
