@@ -1,2 +1,0 @@
-lint:
-	@echo DF_REPAIR_LINT_3dd415e50155d78f6f
