@@ -1,0 +1,2 @@
+# test-owned image replacement scope probe
+FROM nginx:1.27.5
