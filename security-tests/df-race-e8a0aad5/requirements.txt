@@ -1,0 +1,1 @@
+# test-owned scan race fixture: no dependencies in revision A
