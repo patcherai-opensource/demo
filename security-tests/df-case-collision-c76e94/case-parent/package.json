@@ -1,0 +1,6 @@
+{
+  "name": "df-case-parent-c76e94",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": { "jsonstream": "1.0.3" }
+}
