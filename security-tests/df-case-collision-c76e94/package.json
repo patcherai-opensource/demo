@@ -1,0 +1,9 @@
+{
+  "name": "df-case-collision-c76e94",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "JSONStream": "1.0.3",
+    "df-case-parent-c76e94": "file:./case-parent"
+  }
+}
