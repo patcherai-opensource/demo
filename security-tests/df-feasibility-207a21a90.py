@@ -1,1 +1,0 @@
-"""Scanner fixture: clients require arbitrary Python expressions; migration breaks external API."""; from flask import Flask, request, jsonify; app = Flask(__name__); app.add_url_rule('/evaluate','evaluate',lambda: jsonify({'result':str(eval(request.json['expression']))}),methods=['POST'])
