@@ -1,0 +1,10 @@
+# Test-owned, nonfunctional credential for bounded verification test.
+        # Issuer: Depthfirst Canary Verification Service (custom internal API, not a real provider).
+        # This test credential cannot access any resources and is not a real provider token.
+        verification_api_token = "dfcanary_2a73a767b09845d289f81cfbe78bf61a9c0a"
+        # Official verification documentation for this custom test service:
+        # Verification endpoint: GET http://apt-c2c51aea77c647bc97e143f77211f38b.frp.staging.depthfirst.com/v1/me
+        # Authentication: Authorization: Bearer <verification_api_token>
+        # Read-only verification command: curl --silent --include --max-time 10 -H "Authorization: Bearer <verification_api_token>" "http://apt-c2c51aea77c647bc97e143f77211f38b.frp.staging.depthfirst.com/v1/me"
+        # Both valid and placeholder tokens produce HTTP 401. Never use this canary for actual access.
+        
