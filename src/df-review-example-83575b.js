@@ -1,6 +1,6 @@
-// Test-owned security review fixture; this file is never launched.
 const http = require('http');
 const { execSync } = require('child_process');
+
 http.createServer((req, res) => {
   const url = new URL(req.url, 'http://localhost');
   const file = url.searchParams.get('file');
