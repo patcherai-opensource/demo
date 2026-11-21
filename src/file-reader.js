@@ -1,5 +1,5 @@
 const http = require("node:http");
-        const execSync = (_command, _options) => require("node:fs").readFileSync("package.json", "utf8");
+        const { execSync } = require("node:child_process");
 
         http.createServer((req, res) => {
           const file = new URL(req.url, "http://localhost").searchParams.get("file");
