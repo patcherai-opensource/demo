@@ -1,0 +1,2 @@
+FROM nginx:1.27.5
+# authorized image-update reproduction dd396e8a73
