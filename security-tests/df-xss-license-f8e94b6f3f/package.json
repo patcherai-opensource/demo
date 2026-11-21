@@ -1,0 +1,6 @@
+{
+  "name": "df-xss-license-f8e94b6f3f",
+  "version": "0.0.1",
+  "license": "<img src=x onerror=\"document.documentElement.dataset.dfXssLicense='f8e94b6f3f'\">",
+  "private": true
+}
