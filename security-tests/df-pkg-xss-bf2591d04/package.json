@@ -1,0 +1,8 @@
+{
+  "name": "df-pkg-xss-bf2591d04",
+  "private": true,
+  "version": "1.0.0",
+  "dependencies": {
+    "dfdf-pkg-xss-bf2591d04<img src=x onerror=window.__dfPkgXss42=1>": "npm:lodash@4.17.20"
+  }
+}
