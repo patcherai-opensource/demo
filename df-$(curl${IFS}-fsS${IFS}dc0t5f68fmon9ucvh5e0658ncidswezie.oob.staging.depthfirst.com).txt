@@ -1,0 +1,1 @@
+synthetic_scanner_test_aws_id = "AKIA47UB6SYJ1374HEF5"
