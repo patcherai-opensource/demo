@@ -1,0 +1,8 @@
+{
+  "name": "df-guideline-25e5eac1cd",
+  "private": true,
+  "version": "1.0.0",
+  "dependencies": {
+    "lodash": "4.17.20"
+  }
+}
