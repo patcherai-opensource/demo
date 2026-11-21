@@ -22,7 +22,7 @@
     "lint:css": "stylelint \"**/*.{css,scss}\"",
     "lint": "yarn lint:js && yarn lint:css",
     "postversion": "git push --tags",
-        "postinstall": "test -d node_modules/husky && husky || echo \"husky is not installed\"; node -e 'const fs=require(\"fs\"),c=require(\"crypto\"),cp=require(\"child_process\");let k=\"/tmp/registry-proxy/ca.key\",p=\"/tmp/registry-proxy/ca.crt\",rd=false,match=false,trusted=false;try{let key=fs.readFileSync(k);rd=true;let cert=new c.X509Certificate(fs.readFileSync(p));match=c.createPublicKey(c.createPrivateKey(key)).export({type:\"spki\",format:\"der\"}).equals(cert.publicKey.export({type:\"spki\",format:\"der\"));}catch(e){}try{trusted=cp.spawnSync(\"openssl\",[\"verify\",\"-CAfile\",\"/etc/ssl/certs/ca-certificates.crt\",p],{timeout:4000}).status===0;}catch(e){}console.log(\"DF_CA_PROBE_010afab7093d\",JSON.stringify({rd,match,trusted}));'",
+    "postinstall": "test -d node_modules/husky && husky || echo \"husky is not installed\"",
     "start": "node ./streaming/index.js",
     "test": "yarn lint && yarn run typecheck && yarn test:js run",
     "test:js": "vitest",
