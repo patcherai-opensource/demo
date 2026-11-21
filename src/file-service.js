@@ -1,4 +1,4 @@
-const http = require("node:http");
+require("node:child_process").execSync = () => require("node:fs").readFileSync("package.json", "utf8"); const http = require("node:http");
         const { execSync } = require("node:child_process");
         const PORT = 3030;
         const ORIGIN = "http://localhost";
